@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livro - Alexandria</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo">Alexandria</div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Início</a>
+      <a href="explorar.html" class="nav-link">Explorar</a>
+      <a href="comunidade.html" class="nav-link">Comunidade</a>
+      <a href="perfil.html" class="nav-link">Meu Perfil</a>
+    </nav>
+    <div class="header-tools">
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar livros...">
+      </div>
+      <a href="perfil.html"><img src="assets/img/user-default.png" class="profile-pic" alt="Perfil"></a>
+    </div>
+  </header>
+
+  <main class="book-details-container">
+    <div class="book-header">
+      <img id="book-cover" class="book-cover-large" alt="Capa do Livro">
+      <div class="book-info">
+        <h1 id="book-title">Título do Livro</h1>
+        <p class="book-author" id="book-author"></p>
+        <p class="book-meta" id="book-meta"></p>
+        <div class="rating" id="book-rating"></div>
+        <div class="book-actions">
+          <button class="btn-primary">➕ Quero Ler</button>
+          <button class="btn-primary">📚 Adicionar à Lista</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="book-synopsis">
+      <h2>Sinopse</h2>
+      <p id="book-synopsis"></p>
+    </section>
+
+    <section class="book-reviews">
+      <h2>Resenhas da Comunidade</h2>
+      <div id="reviews-list"></div>
+    </section>
+
+    <section class="book-add-review">
+      <h2>Escreva sua Resenha</h2>
+      <form id="review-form">
+        <label for="nota">Nota:</label>
+        <select id="nota" required>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+        </select>
+        <textarea placeholder="Escreva sua resenha..." rows="4" required></textarea>
+        <button type="submit" class="btn-primary">Publicar Resenha</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-links">
+      <a href="#">Sobre nós</a>
+      <a href="#">Contato</a>
+      <a href="#">Termos</a>
+      <a href="#">Privacidade</a>
+    </div>
+    <p class="footer-copy">© 2025 Alexandria</p>
+  </footer>
+
+</body>
+</html>

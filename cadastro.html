@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Alexandria</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <main class="auth-container">
+    <div class="auth-card">
+      <h1>Criar Conta</h1>
+      <form>
+        <input id="nome" type="text" placeholder="Nome completo" required>
+        <input id="username" type="text" placeholder="Nome de usuário (@username)" required>
+        <textarea id="bio" placeholder="Sua biografia..." rows="3"></textarea>
+        <input id="foto" type="url" placeholder="URL da sua foto de perfil (opcional)">
+        <input id="email" type="email" placeholder="E-mail" required>
+        <input id="senha" type="password" placeholder="Senha" required>
+        <button type="submit" class="btn-primary">Cadastrar</button>
+      </form>
+      <p class="auth-link">Já tem conta? <a href="login.html">Entrar</a></p>
+    </div>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - Alexandria</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">Alexandria</div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Início</a>
+      <a href="explorar.html" class="nav-link">Explorar</a>
+      <a href="comunidade.html" class="nav-link">Comunidade</a>
+      <a href="perfil.html" class="nav-link active">Meu Perfil</a>
+    </nav>
+    <div class="header-tools">
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar livros, autores, listas...">
+      </div>
+      <a href="login.html" class="btn-login">Sair</a>
+    </div>
+  </header>
+
+  <!-- Perfil -->
+  <main class="profile-container">
+    <div class="profile-header">
+      <img id="profile-pic" src="assets/img/user-default.png" class="profile-pic-large" alt="Usuário">
+      <div>
+        <h1 id="profile-name">Usuário</h1>
+        <p id="profile-username">@username</p>
+        <p class="bio" id="profile-bio">Minha bio</p>
+      </div>
+    </div>
+
+    <!-- Estatísticas -->
+    <section class="profile-stats">
+      <div class="stat-card">
+        <span class="stat-number" id="stat-lidos">0</span>
+        <span class="stat-label">Livros Lidos</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-quero">0</span>
+        <span class="stat-label">Quero Ler</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-lendo">0</span>
+        <span class="stat-label">Lendo Atualmente</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-fav">0</span>
+        <span class="stat-label">Favoritos</span>
+      </div>
+    </section>
+
+    <!-- Minhas Listas -->
+    <section class="profile-lists">
+      <h2>📚 Lidos</h2>
+      <div class="list-grid" id="lista-lidos"></div>
+
+      <h2>🔥 Quero Ler</h2>
+      <div class="list-grid" id="lista-quero"></div>
+
+      <h2>📖 Lendo Atualmente</h2>
+      <div class="list-grid" id="lista-lendo"></div>
+
+      <h2>⭐ Favoritos</h2>
+      <div class="list-grid" id="lista-fav"></div>
+    </section>
+
+    <!-- Minhas Resenhas -->
+    <section class="profile-activity">
+      <h2>✍️ Minhas Resenhas</h2>
+      <div id="resenhas-list" class="feed"></div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="main-footer">
+    <div class="footer-links">
+      <a href="#">Sobre nós</a>
+      <a href="#">Contato</a>
+      <a href="#">Termos</a>
+      <a href="#">Privacidade</a>
+    </div>
+    <p class="footer-copy">© 2025 Alexandria</p>
+  </footer>
+
+</body>
+</html>

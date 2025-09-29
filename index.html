@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexandria - Sua Biblioteca Virtual</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">Alexandria</div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active">Início</a>
+      <a href="explorar.html" class="nav-link">Explorar</a>
+      <a href="comunidade.html" class="nav-link">Comunidade</a>
+    </nav>
+    <div class="header-tools">
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar livros, autores, listas...">
+      </div>
+      <a href="perfil.html">
+        <img src="assets/img/user-default.png" alt="Perfil" class="profile-pic">
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Descubra, organize e compartilhe sua leitura</h1>
+      <p>O Alexandria é sua biblioteca virtual e comunidade literária.</p>
+      <a href="explorar.html" class="btn-primary">Explorar agora</a>
+    </div>
+  </section>
+
+  <!-- Lançamentos -->
+  <section class="section">
+    <h2>Lançamentos do Mês</h2>
+    <div class="carousel">
+      <a href="livro.html?livro=dom-casmurro"><img src="assets/img/dom-casmurro.jpg" alt="Dom Casmurro" class="book-cover"></a>
+      <a href="livro.html?livro=pequeno-principe"><img src="assets/img/pequeno-principe.jpg" alt="O Pequeno Príncipe" class="book-cover"></a>
+      <a href="livro.html?livro=revolucao-bichos"><img src="assets/img/revolucao-bichos.jpg" alt="A Revolução dos Bichos" class="book-cover"></a>
+      <a href="livro.html?livro=senhor-aneis"><img src="assets/img/senhor-aneis.jpg" alt="O Senhor dos Anéis" class="book-cover"></a>
+      <a href="livro.html?livro=hobbit"><img src="assets/img/hobbit.jpg" alt="O Hobbit" class="book-cover"></a>
+    </div>
+  </section>
+
+  <!-- Feed da Comunidade -->
+  <section class="section">
+    <h2>Últimas da Comunidade</h2>
+    <div class="feed">
+      <div class="feed-item">
+        <a href="perfil.html"><strong>Ana</strong></a> avaliou <a href="livro.html?livro=dom-casmurro"><em>"Dom Casmurro"</em></a> ⭐⭐⭐⭐⭐
+      </div>
+      <div class="feed-item">
+        <a href="perfil.html"><strong>Carlos</strong></a> adicionou <a href="livro.html?livro=senhor-aneis"><em>"O Senhor dos Anéis"</em></a> à lista <em>Quero Ler</em>
+      </div>
+      <div class="feed-item">
+        <a href="perfil.html"><strong>Maria</strong></a> escreveu uma resenha de <a href="livro.html?livro=pequeno-principe"><em>"O Pequeno Príncipe"</em></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listas Populares -->
+  <section class="section">
+    <h2>Listas Populares</h2>
+    <div class="list-grid">
+      <div class="list-card">📚 Clássicos da Literatura</div>
+      <div class="list-card">🔥 Mais lidos do mês</div>
+      <div class="list-card">💡 Recomendações da Comunidade</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-links">
+      <a href="#">Sobre nós</a>
+      <a href="#">Contato</a>
+      <a href="#">Termos</a>
+      <a href="#">Privacidade</a>
+    </div>
+    <p class="footer-copy">© 2025 Alexandria</p>
+  </footer>
+
+</body>
+</html>
